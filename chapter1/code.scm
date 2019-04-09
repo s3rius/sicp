@@ -263,11 +263,5 @@
     (< (abs (- v1 v2)) tolerance))
   ((iterative_improve close? f) first_guess))
 
-(define main 
-  (newline)
-  (display "-----------------------------")
-  (newline)  
-  (display "Chapter loading successfull.")
-  (newline)
-  (display "-----------------------------")
-  0)
+
+(loading-chapter 1)
