@@ -12,6 +12,8 @@
 (load "chapter2/intervals.scm")
 (logoprint "Chapter 2 | lists")
 (load "chapter2/lists.scm")
+(logoprint "Chapter 2 | trees")
+(load "chapter2/trees.scm")
 
 
 
